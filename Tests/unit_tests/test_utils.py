@@ -43,7 +43,7 @@ class BmiCalculatorTest(TestCase):
         height = 1.7
         weight = 75
         bmi, bmi_means = bmi_calculator(height, weight)
-        self.assertEqual(bmi, 25.9)
+        self.assertEqual(bmi, 25.95)
         self.assertEqual(bmi_means, '過重')
 
     def test_bmi_result_light(self):
